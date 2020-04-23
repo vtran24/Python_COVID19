@@ -7,8 +7,18 @@ Effective data management can help minimize these the effects and help decision-
 Based on demographics and hospital availability, which FIPS counties are the most vulnerable or at risk during COVID19?
 
 It's important to address this to allow policymakers in each region to implement practices like social distancing and businesses to prepare workers and supplies to support these weaker areas. 
+
 **Data Question**
 What metrics and data do we have to monitor healthcare resources and COVID19 conditions in the given counties?
+
+## Analysis
+
+The bar chart conveys 20 counties with the highest populations with Los Angeles County, California taking a significant lead at 10.1M; its high number of people suggests that the county is most at risk for virus transmission, but zoning into population density and certain characteristics reveal that although certain counties are less populated, they may be more at risk. For example, the following chart manifests the top 20 counties with the highest percentages of people over 60, a vulnerable age group. 
+
+In the bubble chart, it's seen that although there aren't any significant counties with both a high percentage of minors and elderly, there are regions in comparison to the rest of the data where there are not many hospital bed counts. Standardizing the hospital bed counts uncovers 
+
+
+**Business Answer**
 
 ### Data Sources
 Johns Hopkins University Center for Systems Science and Engineering: https://github.com/CSSEGISandData/COVID-19
