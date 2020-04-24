@@ -16,6 +16,8 @@ What metrics and data do we have to monitor healthcare resources and COVID19 con
 
 The **bar chart** conveys 20 counties with the highest populations with Los Angeles County, California taking a significant lead at 10.1M; its high number of people suggests that the county is most at risk for virus transmission, but zoning into population density and certain characteristics (i.e. percent of people over the age of 60) reveal that although certain counties are less populated, they may be more at risk and thus require more attention. 
 
+![](https://github.com/vtran24/Python_COVID19/blob/master/bar_covid19_over60-2.html)
+
 
 As seen in the **scatter chart**, there aren't any significant counties with both a high percentage of minors and elderly, there are regions in comparison to the rest of the data where there are not many hospital bed counts. Standardizing the hospital bed counts uncovers multiple counties with a higher minors/elders population with about the same number of beds per 1000 people as counties with lower numbers of these age groups. Some counties with higher percentages of people over 60 have relatively low standardized bed counts which should prompt health and government officials to devote more resources and enact stricter policies in controlling the spread, but the otherwise similarly-sized bubbles may indicate that number of hospital beds isn't a major contributing determinant in COVID19 damage control. 
 
