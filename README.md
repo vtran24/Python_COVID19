@@ -12,7 +12,8 @@ It's important to address this to allow policymakers in each region to implement
 What metrics and data do we have to monitor healthcare resources and COVID19 conditions in the given counties?
 
 ## Data Interpretation
-![](https://github.com/vtran24/Python_COVID19/blob/master/Bar_Tot_Pop.html)
+![Unknown-2](https://user-images.githubusercontent.com/60996310/80255350-ba542500-864a-11ea-8ddc-5675a2da75eb.png)
+
 
 The **bar chart** conveys 20 counties with the highest populations with Los Angeles County, California taking a significant lead at 10.1M; its high number of people suggests that the county is most at risk for virus transmission, but zoning into population density and certain characteristics (i.e. percent of people over the age of 60) reveal that although certain counties are less populated, they may be more at risk and thus require more attention. 
 
