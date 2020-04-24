@@ -11,15 +11,18 @@ It's important to address this to allow policymakers in each region to implement
 **Data Question**
 What metrics and data do we have to monitor healthcare resources and COVID19 conditions in the given counties?
 
-## Analysis
+## Data Interpretation
 
-The bar chart conveys 20 counties with the highest populations with Los Angeles County, California taking a significant lead at 10.1M; its high number of people suggests that the county is most at risk for virus transmission, but zoning into population density and certain characteristics reveal that although certain counties are less populated, they may be more at risk. For example, the following chart manifests the top 20 counties with the highest percentages of people over 60, a vulnerable age group. 
+The **bar chart** conveys 20 counties with the highest populations with Los Angeles County, California taking a significant lead at 10.1M; its high number of people suggests that the county is most at risk for virus transmission, but zoning into population density and certain characteristics (i.e. percent of people over the age of 60) reveal that although certain counties are less populated, they may be more at risk and thus require more attention. 
 
+As seen in the **scatter chart**, there aren't any significant counties with both a high percentage of minors and elderly, there are regions in comparison to the rest of the data where there are not many hospital bed counts. Standardizing the hospital bed counts uncovers multiple counties with a higher minors/elders population with about the same number of beds per 1000 people as counties with lower numbers of these age groups. Some counties with higher percentages of people over 60 have relatively low standardized bed counts which should prompt health and government officials to devote more resources and enact stricter policies in controlling the spread, but the otherwise similarly-sized bubbles may indicate that number of hospital beds isn't a major contributing determinant in COVID19 damage control. 
 
-In the bubble chart, it's seen that although there aren't any significant counties with both a high percentage of minors and elderly, there are regions in comparison to the rest of the data where there are not many hospital bed counts. Standardizing the hospital bed counts uncovers multiple counties with a higher minors/elders population with 
-
+The **heat map** is consistent with the scatter plot data in that it conveys how there is no significant correlation in the number of hospital beds and COVID19-related deaths (correlation of almost 0) while there is a slightly positive correlation with the number of deaths and the population size with all ages. There are also low correlations between other factors like dependency ratios. This suggests that these variables don't play a large role in determining what considers a county more at risk and encourages exploring other data sources on potential contributing factors like number of human resources, social vulnerability (i.e. accessibility to housing/transportation), or medical supplies. 
 
 **Business Answer**
+
+## Further Analysis
+Because there is a .86 correlation between the cases per 1000 and deaths per 1000, it might be useful to analyze data on various hospitalization procedures or practices adopted post-infection as other medical resources may be more vital. Looking at datasets revealing the county's resiliency in dealing with disasters may also help as it takes into account factors like homelessness, poverty, access to transportation, etc. 
 
 ### Data Sources
 Google Colab: https://colab.research.google.com/drive/1fIVLH0gPid_dHQgQIpLjusz2ntzRTyKi#scrollTo=SIEA2QAKVX5y&uniqifier=1
